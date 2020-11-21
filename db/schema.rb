@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_21_173018) do
+ActiveRecord::Schema.define(version: 2020_11_21_172706) do
 
   create_table "actors", force: :cascade do |t|
     t.string "first_name"
@@ -26,10 +26,6 @@ ActiveRecord::Schema.define(version: 2020_11_21_173018) do
   create_table "networks", force: :cascade do |t|
     t.string "call_letters"
     t.string "channel"
-  end
-
-  create_table "shows", force: :cascade do |t|
-    t.string "name"
   end
 
 end
